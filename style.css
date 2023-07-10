@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+.first-section{
+    background-color: #FFF8F3;
+    width: 100%;
+    height: 100vh;
+    overflow: auto;
+    display: flex;
+    align-items: flex-start;
+    background-image: url(Images/hardy.png), url(Images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: auto 550px, auto 400px;
+    
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 51px;
+    width: 100%;
+}
+
+.container-text-box{
+    margin-left: 50px;
+    margin-right: 230px;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#letter{
+    color: #FD6E0A;
+}
+.lists{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+
+.img-box-1{   
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 23px;
+}
+
+.image-1{
+    height: 100vh;
+}
+
+.li-items{
+    margin-right: 30px;
+}
+
+.button{
+    padding: 15px 17px 15px 17px;
+    color: white;
+    background-color: #FD6E0A;
+    border: none;
+    border-radius: 5px;
+}
+
+.anchor{
+    text-decoration: none;
+    color: white;
+}
+
+.anchor-2{
+    text-decoration: none;
+    color: #FD6E0A;
+}
+
+.button-2{
+    padding: 15px 17px 15px 17px;
+    border: 2px solid #FD6E0A;
+    border-radius: 5px;
+}
+
+.intro-box h3{
+    color: var(--dark-02, #474747);
+    font-family: Open Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.intro-box h1{
+    color: var(--dark-01, #181818);
+    font-family: Open Sans;
+    font-size: 85px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.intro-box p{
+    color: var(--dark-03, #757575);
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.intro-box div{
+    margin-top: 10px;
+}
